@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">智联锁</string>
+    <string name="welcome_smartlock">智联锁</string>
+    <string name="splash_wxlogin">微信登陆</string>
+    <string name="splash_numlogin">账号登陆</string>
+    <string name="login_willlogin">登陆</string>
+    <string name="login_willreg">我要注册</string>
+    <string name="login_forgetpass">忘记密码</string>
+    <string name="login_writepass">请输入密码</string>
+    <string name="login_writenum">请输入手机号码</string>
+    <string name="login_yanzhegnma">请输入验证码</string>
+    <string name="login_writepassix">请输入密码</string>
+    <string name="main_housedetal">房屋</string>
+    <string name="main_userinfo">个人中心</string>
+    <string name="property_accredit">住户授权</string>
+    <string name="property_record">开锁记录</string>
+    <string name="edituser_room">修改住户</string>
+    <string name="editbefore_roomt">提前退房</string>
+    <string name="editdelay_room">续订房间</string>
+    <string name="property_smart">智能家居</string>
+    <string name="null_msg">暂无记录</string>
+    <string name="null_devices">您还没有添加自己的设备</string>
+    <string name="bindmobile">绑定手机</string>
+    <string name="idnumber">ID</string>
+    <string name="owenmsg">编辑个人资料</string>
+    <string name="online">在线</string>
+    <string name="offline">离线</string>
+    <string name="adduser">添加住户</string>
+    <string name="changeuser">修改用户</string>
+    <string name="adddevices">添加设备</string>
+    <string name="homedetal">房屋详情</string>
+    <string name="settings">设置</string>
+    <string name="settingsroomname">设置房间名称</string>
+    <string name="setting_ok">完成</string>
+
+    <string name="piclist_activity_back">截取图片</string>
+    <string name="name">姓名</string>
+    <string name="lockidname">门锁ID</string>
+    <string name="gatewayidname">网关ID</string>
+    <string name="phonenumber">手机号码</string>
+    <string name="idcardnum">身份证号</string>
+    <string name="starttime">开始时间</string>
+    <string name="endtime">结束时间</string>
+    <string name="pleasewrite">请输入</string>
+    <string name="pleasewrite2"> >         </string>
+    <string name="commit">提交</string>
+    <string name="nowificonnect">没有连接WIFI</string>
+    <string name="device_reset">恢复出厂设置方法</string>
+    <string name="device_reset1">1、按下“门铃按钮”激活电子猫眼</string>
+    <string name="device_reset2">2、按下“门铃按钮”约3秒，听到“恢复出厂设置”后即刻松开</string>
+    <string name="device_reset3">3、再次按下“门铃按钮”,即会听到“开启快速配置”</string>
+    <string name="start_connect_router">开始连接后，您将听到猫眼发出“开始连接路由器”的提示</string>
+
+    <string name="title_booking_info_fragment">+ 添加住户</string>
+    <string name="title_booking_info_msg">长按可进行编辑或删除</string>
+    <string name="title_locking_info_fragment">Locking information</string>
+    <string name="title_housing_info_fragment">Housing information</string>
+    <string name="door_bell_rings"> 智连锁门铃 </string>
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="configurationdevices1">请按“门铃激活电子猫眼”</string>
+    <string name="configurationdevices2">是否听到设备提示“开始快速配置”？</string>
+    <string name="configurationdevices_true">若听到，请点击“下一步”</string>
+    <string name="nextstep">下一步</string>
+    <string name="nextstepl">已经接wifi，下一步</string>
+    <string name="help_nolistener">未听到“开启快速配置”</string>
+    <string name="help_nolisteneralert">未听到提示</string>
+    <string name="lookinformation">查看身份</string>
+    <string name="queren">确认</string>
+    <string name="ok">好的</string>
+    <string name="anncommit">提交</string>
+    <string name="btn_reflsh">刷新网关状态</string>
+    <string name="save">保存</string>
+    <string name="nextstepnext">开始连接</string>
+    <string name="inpputwifiinformation">请输入希望电子猫眼连接的“WI-FI”信息(仅支持2.4Ghz路由器)</string>
+    <string name="remountopndoor">远程开门</string>
+
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="gpsNotifyMsg">当前应用需要打开定位功能。\n\n请点击\"设置\"-\"定位服务\"-打开定位功能。</string>
+    <string name="setting">设置</string>
+
+    <string name="longenterspack">长按语音对话</string>
+    <string name="tovideo">视频库</string>
+    <string name="totackpic">图库</string>
+    <string name="delect_success">删除成功</string>
+    <string name="delect_failed">删除失败</string>
+    <string name="video_pic">开始录像</string>
+    <string name="stopvideo_pic">停止录像</string>
+    <string name="cameraselect">已识别到您的“电子猫眼”，请选择并进入下一步</string>
+    <string name="names">姓名  </string>
+    <string name="sexs">性别  </string>
+    <string name="minzu">民族   </string>
+    <string name="brith">出生     </string>
+    <string name="card">身份证号    </string>
+    <string name="addresss">地址    </string>
+    <string name="hasgatewaymsg">已经获取到您的网关和门锁信息</string>
+    <string name="nohasgatewaymsg">您的网关处于离线状态，请检查电源以及网线是否连接正常</string>
+
+
+    <string-array name="labels">
+        <item>step 1</item>
+        <item>step 2</item>
+        <item>step 3</item>
+    </string-array>
+
+    <string-array name="labels2">
+        <item>step 1</item>
+        <item>step 2</item>
+        <item>step 3</item>
+        <item>step 4</item>
+        <item>step 5</item>
+    </string-array>
+    <string name="loading">Loading..</string>
+    <string name="login">登录</string>
+    <string name="login_willregist">注册</string>
+
+    <string name="tips">Tips</string>
+    <string name="sure">Ok</string>
+    <string name="cancel">取消</string>
+
+    <string name="ssid_can_not_be_null">Ssid can not be null</string>
+    <string name="password_can_not_be_null">Password can not be null</string>
+    <string name="sn_can_not_be_null">SN can not be null</string>
+
+    <string name="wifi_set_up_successful">Wifi set up successful</string>
+    <string name="failed">Failed</string>
+    <string name="init_failed">Failed to initialize video, please try again.</string>
+    <string name="connect_fail">Connect fail.</string>
+
+    <string name="please_enter_sn">Enter SN</string>
+    <string name="please_enter_wifi_password">Enter WiFi password</string>
+    <string name="get_device_info">Get Device Info</string>
+    <string name="get_device_version">Get Device Version</string>
+    <string name="connect_device">Connect</string>
+    <string name="config_wifi">Config WiFi</string>
+    <string name="video_record">Sdcard Record</string>
+    <string name="finish">Finish</string>
+    <string name="screenshots">Screenshot</string>
+    <string name="start_record">Start record</string>
+    <string name="stop_record">Stop record</string>
+    <string name="play_phone_voice">Star phone voice</string>
+    <string name="stop_phone_voice">Stop phone voice</string>
+    <string name="play_device_voice">Play device voice</string>
+    <string name="stop_device_voice">Stop device voice</string>
+
+    <string name="get_sn">Get SN</string>
+    <string name="get_battery">Get battery</string>
+    <string name="get_config_info">Get config info</string>
+    <string name="connect_error">Try again~</string>
+
+    <string name="update">Upgrade</string>
+    <string name="update_success">Update success</string>
+    <string name="update_fail">Update Fail</string>
+    <string name="update_not_enough_power">Update not enough power</string>
+    <string name="update_ing">Update ing</string>
+
+    <string name="ir_close">IR Close</string>
+    <string name="ir_low_sense">IR Low</string>
+    <string name="ir_high_sense">IR High </string>
+    <string name="close_ir">Close IR</string>
+    <string name="open_ir_low">Turn on infrared low sensitivity</string>
+    <string name="open_ir_high">Turn on infrared high sensitivity</string>
+
+    <string name="theft_close">Theft is a close</string>
+    <string name="theft_open">Theft is a open</string>
+    <string name="close_theft">Turn off theft</string>
+    <string name="open_theft">Turn on theft</string>
+
+    <string name="format_sdcard">Format the SD card</string>
+    <string name="sdcard_no_found">Not found sdcard</string>
+    <string name="sdcard_memory">%1$sGB/%2$sGB</string>
+
+    <string name="device_version">Version</string>
+
+    <string name="custom_command">Custom command</string>
+    <string name="stay_tuned">Stay tuned~</string>
+
+    <string name="extend_the_function">Extend the function</string>
+    <string name="cat_eye_unlock">The cat\'s eye open the lock</string>
+    <string name="get_cat_eye_unlock_key">Get temporary unlock password for cat\'s eyes</string>
+
+    <string name="cat_eye_pair">Pair</string>
+    <string name="cat_eye_un_pair">Un Pair</string>
+
+    <string name="title_activity_cloud_mes">CloudMesActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <string-array name="src_storage_resolution">
+        <item>720P</item>
+        <item>960×540</item>
+        <item>512×288</item>
+    </string-array>
+
+    <string-array name="src_storage_recordtime">
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>15秒</item>
+    </string-array>
+    <string-array name="src_time_format">
+        <item>MM/dd/yyyy HH:mm:ss</item>
+        <item>yyyy-MM-dd HH:mm:ss</item>
+        <item>dd/MM/yyyy HH:mm:ss</item>
+    </string-array>
+    <string-array name="src_zone">
+        <item>东十二区</item>
+        <item>东十一区</item>
+        <item>东十区</item>
+        <item>东九区</item>
+        <item>东八区</item>
+        <item>东七区</item>
+        <item>东六区</item>
+        <item>东五区</item>
+        <item>东四区</item>
+        <item>东三区</item>
+        <item>东二区</item>
+        <item>东一区</item>
+        <item>中时区</item>
+        <item>西一区</item>
+        <item>西二区</item>
+        <item>西三区</item>
+        <item>西四区</item>
+        <item>西五区</item>
+        <item>西六区</item>
+        <item>西七区</item>
+        <item>西八区</item>
+        <item>西九区</item>
+        <item>西十区</item>
+        <item>西十一区</item>
+        <item>西十二区</item>
+    </string-array>
+
+    <!-- sd卡录像状态数组 -->
+    <string-array name="array_sdcard_state">
+        <item>未发现SD卡</item>
+        <item>未格式化</item>
+        <item>存储卡已满</item>
+        <item>录像中…</item>
+        <item>准备就绪</item>
+    </string-array>
+
+    <!-- 录像模式数组 -->
+    <string-array name="array_record_mode">
+        <item>停止录像</item>
+        <item>全天录像</item>
+        <item>报警录像</item>
+        <item>缩时录像</item>
+    </string-array>
+
+    <!-- 抽帧录像间隔数组 -->
+    <string-array name="array_ch_frame">
+        <item>4</item>
+        <item>20</item>
+        <item>60</item>
+    </string-array>
+
+
+    <!--自定义属性 -->
+    <declare-styleable name="ClipViewLayout">
+        <attr name="clipType" format="enum">
+            <enum name="circle" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="mHorizontalPadding" format="dimension" />
+        <attr name="clipBorderWidth" format="dimension" />
+    </declare-styleable>
+
+
+
+
+
+</resources>

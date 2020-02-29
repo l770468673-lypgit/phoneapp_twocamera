@@ -1,0 +1,92 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical"
+    tools:context=".ui.CameraActivityPictureList">
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/persionalrey01rey01"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="#fff"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/piclist_activity_back"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:src="@mipmap/back_black_jiantou" />-->
+
+
+        <!--<TextView-->
+            <!--android:textColor="@color/a595959"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:text="@string/piclist_activity_back" />-->
+
+    <!--</RelativeLayout>-->
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="6dp"-->
+        <!--android:background="#dfdfdf" />-->
+
+    <!--<include-->
+        <!--android:id="@+id/activity_select_date_layout"-->
+        <!--layout="@layout/activity_select_date"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<RelativeLayout-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center">-->
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:background="#ffffff"-->
+            <!--android:id="@+id/recyviewpiclist"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+           <!--/>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/rey_nullpiclist"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:orientation="vertical"-->
+            <!--android:visibility="gone">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imagenull"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:src="@mipmap/housedetal_opendoorinformation_null" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/null_msg" />-->
+
+        <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+
+
+</LinearLayout>

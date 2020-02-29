@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="oval" >
+            <size android:height="56dp" android:width="56dp"/>
+            <stroke android:width="0.5dp" android:color="@color/colorAccent"/>
+            <solid android:color="@color/colorLoginBtn"/>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="oval" >
+            <size android:height="56dp" android:width="56dp"/>
+            <solid android:color="@color/colorLoginBtnPressed"/>
+        </shape>
+    </item>
+</selector>

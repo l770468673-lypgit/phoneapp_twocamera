@@ -1,0 +1,282 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/background_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/houseinfo_backgroundselect"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/imagelight_1"
+                        android:layout_width="@dimen/y40"
+                        android:layout_height="@dimen/y40"
+                        android:layout_gravity="center"
+                        android:layout_margin="6dp"
+                        android:layout_marginLeft="8dp"
+                        android:background="@mipmap/housedetal_sleeproom_letopen" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@+id/kongtiao"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dp"
+                                android:text="卧室灯"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dp"
+                                android:text="床头灯"
+                                android:textColor="@color/c6c6c6"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+
+                        <Button
+                            android:id="@+id/swimage_1"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/y20"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="6dp"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:drawableLeft="@drawable/smart_home_select"
+                            android:drawablePadding="2dp"
+                            android:text="开" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/background_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/houseinfo_backgroundselect"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/imagelight_2"
+                        android:layout_width="@dimen/y40"
+                        android:layout_height="@dimen/y40"
+                        android:layout_gravity="center"
+                        android:layout_margin="6dp"
+                        android:layout_marginLeft="8dp"
+                        android:background="@mipmap/housedetal_sleeproom_letopen" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@+id/kongtiao"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dp"
+                                android:text="卧室灯"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dp"
+                                android:text="床头灯"
+                                android:textColor="@color/c6c6c6"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+
+                        <Button
+                            android:id="@+id/swimage_2"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/y20"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="6dp"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:drawableLeft="@drawable/smart_home_select"
+                            android:drawablePadding="2dp"
+                            android:text="开" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/background_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/houseinfo_backgroundselect"
+                android:paddingBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/kongtiao"
+                    android:layout_width="@dimen/y40"
+                    android:layout_height="@dimen/y40"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="6dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@mipmap/housedetal_kongtiao" />
+
+                <LinearLayout
+                    android:id="@+id/temperatureroom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_toRightOf="@+id/kongtiao"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:text="客厅"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:text="恒温空调"
+                            android:textColor="@color/c6c6c6"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/conditioner"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/y20"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="6dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/smart_home_select"
+                        android:drawablePadding="2dp"
+                        android:text="开" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/temperatureroom"
+                    android:layout_toRightOf="@+id/kongtiao"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <SeekBar
+                            android:id="@+id/seekbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:max="35"
+                            android:progress="18"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/texttemp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:textColor="@color/radiobutton_background" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical"
+    tools:context=".ui.PropertyHomeActivity">
+
+
+    <ScrollView
+        android:fillViewport="true"
+        android:background="@color/allbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/tpoback"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/prepert_activity_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:padding="12dp"
+                    android:src="@mipmap/back_black_jiantou" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/homedetal"
+                    android:textColor="#262626"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/prepert_activity_showotherid"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:src="@mipmap/room_setting" />
+
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/bitimg"
+                layout="@layout/fragment_properties_item" />
+
+
+            <RadioGroup
+                android:id="@+id/radiogrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bitimg"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radiobutton_accredit_meun"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableTop="@drawable/proper_zhuhu_select"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:text="@string/property_accredit"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton_record_meun"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:button="@null"
+                    android:drawableTop="@drawable/proper_opendoor_select"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:text="@string/property_record"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton_smart_meun"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:button="@null"
+                    android:drawableTop="@drawable/proper_smart_select"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:text="@string/property_smart"
+                    android:textSize="12sp" />
+
+            </RadioGroup>
+
+            <!--<android.support.v4.view.ViewPager-->
+            <!--android:id="@+id/property_viewpager"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="400dp" />-->
+
+
+            <FrameLayout
+                android:id="@+id/fameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/radiogrop" />
+
+            <View
+                android:id="@+id/showdtrefirst"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ba050505"
+                android:visibility="gone"
+
+                />
+
+            <ImageView
+                android:id="@+id/showdtrefirst_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radiogrop"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/date_select_guide"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/showdtrefirst_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="@dimen/y40"
+                android:background="@drawable/home_nullmsgback"
+                android:text="@string/ok"
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <SurfaceView
+        android:id="@+id/item_surface"
+        android:layout_width="match_parent"
+        android:layout_height="220dp" />
+
+    <ImageView
+        android:id="@+id/item_iv"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/item_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内容部分"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/item_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_surface"
+        android:text="播放时长：60min"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/item_tv_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_tv_time"
+        android:text="视频大小：1000M"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/item_tv_size"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent" />
+</RelativeLayout>

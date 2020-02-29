@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView_property"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y150"
+        app:cardCornerRadius="8dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.estone.bank.estone_appsmartlock.Widgets.RatioImageView
+                android:id="@+id/imageView_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/bind_otherpic" />
+
+            <RelativeLayout
+                android:id="@+id/lly_xmactivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@+id/imageView_main">
+
+                <LinearLayout
+                    android:id="@+id/radiobutton_isonline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/y10"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/properfragment_devstuts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/onlineorofflinback"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="@string/online"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y10"
+                android:background="@mipmap/homeiconback_blackalph"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView_main">
+
+                <ImageView
+                    android:id="@+id/imageView_icon_location"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@mipmap/home_address"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:id="@+id/textView_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:padding="5dp"
+                    android:text="花果山"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text="302"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_push_result_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/iv_push_result_checked"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/homeiconback_blackalph"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_push_result_checked">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_push_result_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:text="20:23:21"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_push_result_status"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="Start"-->
+        <!--android:textColor="#888888"-->
+        <!--android:textSize="16sp"-->
+        <!--android:visibility="gone" />-->
+        <TextView
+            android:id="@+id/tv_push_result_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:text="20:23:21"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageviewplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/videopic_play"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_push_result_checked"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_push_result_checked" />
+
+    <TextView
+        android:id="@+id/tv_push_result_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</android.support.constraint.ConstraintLayout>

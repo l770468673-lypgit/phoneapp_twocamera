@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical"
+    tools:context=".ui.AddUserActivity">
+
+    <RelativeLayout
+        android:id="@+id/rel_top_back"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/addkeyl_activity_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:padding="12dp"
+            android:src="@mipmap/back_black_jiantou" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/changeuser"
+            android:textColor="#262626"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel_top_back"
+        android:orientation="vertical">
+
+
+        <RadioGroup
+            android:id="@+id/edit_radiogrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bitimg"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radiobtn_editroom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/edit_checkuser"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="20dp"
+                android:text="@string/edituser_room"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_beforeroom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:button="@null"
+                android:drawableTop="@drawable/ahead_checkout"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="20dp"
+                android:text="@string/editbefore_roomt"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_delroom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:button="@null"
+                android:drawableTop="@drawable/renew_room"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="20dp"
+                android:text="@string/editdelay_room"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <FrameLayout
+            android:id="@+id/edit_userfameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bookinforedit_anim"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/load1"
+        android:visibility="gone" />
+
+</RelativeLayout>

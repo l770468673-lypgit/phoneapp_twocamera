@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/property_accredit_meun"
+        android:icon="@mipmap/housedetal_haspremisstion_detal"
+        android:title="@string/property_accredit" />
+
+    <item
+        android:id="@+id/property_record_meun"
+        android:icon="@mipmap/housedetal_opendoorinformation_detal"
+        android:title="@string/property_record" />
+    <item
+        android:id="@+id/property_smart_meun"
+        android:icon="@mipmap/housedetal_smartlock_default"
+        android:title="@string/property_smart" />
+
+
+</menu>

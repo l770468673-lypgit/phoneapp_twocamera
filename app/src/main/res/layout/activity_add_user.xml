@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical"
+    tools:context=".ui.AddUserActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/persionalrey01rey01"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#fff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/addkeyl_activity_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@mipmap/back_black_jiantou" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/adduser"
+                android:textColor="@color/a595959"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/D9D9D9" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/name"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/addusername"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:gravity="right"
+                android:hint="请输入姓名"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColorHint="@color/B2B2B2"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/lly_01"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/addusername"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/D9D9D9"
+                android:orientation="vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/lly_01"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/phonenumber"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/addphonenum"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/lly_01"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:gravity="right"
+
+                android:hint="请输入11位手机号码"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColorHint="@color/B2B2B2"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/lly_02"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/addphonenum"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/D9D9D9"
+                android:orientation="vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/lly_02"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/idcardnum"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/addidnum"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/lly_02"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:gravity="right"
+                android:hint="请输入18位身份号码"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColorHint="@color/B2B2B2"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/lly_03"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/addidnum"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/D9D9D9"
+                android:orientation="vertical" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/inpstarttimute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:text="@string/starttime"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/starttimute"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:background="@null"
+                android:hint=">"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColorHint="@color/B2B2B2"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/starttimute"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/D9D9D9" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+
+            android:id="@+id/inpendtimute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:text="@string/endtime"
+                android:textColor="#000000"
+                android:textColorHint="#B2B2B2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/endtimute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:background="@null"
+                android:hint="@string/pleasewrite2"
+                android:textColorHint="@color/B2B2B2" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/D9D9D9" />
+
+        <RelativeLayout
+            android:id="@+id/buttoncommit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp">
+
+
+            <Button
+                android:id="@+id/buttoncommit2"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/nextsetup"
+                android:text="@string/anncommit"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/adduserload_anim"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/load1"
+        android:visibility="gone" />
+</RelativeLayout>
